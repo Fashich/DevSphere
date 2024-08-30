@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.ellipse-frame {
+position: absolute;
+width: 1028px;
+height: 622.94px;
+left: calc(50% - 1028px/2);
+top: 400px;
+background: linear-gradient(0deg, rgba(154, 2, 219, 0.9) 28.89%, rgba(0, 27, 56, 0.9) 100%);
+filter: blur(125px);
+}
+/* STAR BG
+
+position: absolute;
+width: 720px;
+height: 386.24px;
+left: 2px;
+top: 362px;
+ */
+.welcome-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    font-family: 'Inter';
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+.slogan-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-family: 'Inter';
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.start {
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    top: 120px;
+    background-color: rgba(72, 34, 108, 1);
+    height: max-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(
+					0px 4px 0px rgba(255, 255, 255, 0.8)
+				);
+				-moz-filter: drop-shadow(
+					0px 4px 0px rgba(255, 255, 255, 0.8)
+				);
+				-ms-filter: drop-shadow(0px 4px 0px rgba(255, 255, 255, 0.8));
+				-o-filter: drop-shadow(0px 4px 0px rgba(255, 255, 255, 0.8));
+				filter: drop-shadow(0px 4px 0px rgba(255, 255, 255, 0.8));
+                width: max-content;
+                padding: 10px 20px;
+}
